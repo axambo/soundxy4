@@ -60,37 +60,21 @@ SoundXY4 is free software; you can redistribute it and/or modify it under the te
 
 References
 ----------
-- This code is inspired by WaveTable, a tangible and multi-touch tabletop waveform editor developed by Gerard Roma who led the software design and Anna Xambó who led the hardware design in 2008. 
+- This code is inspired by WaveTable, a tangible and multi-touch tabletop waveform editor developed by Gerard Roma who led the software design and Anna Xambó who led the hardware design in 2008. Read our paper here: http://www.nime.org/proceedings/2008/nime2008_249.pdf
 
-Read our paper here: 
+- This code is a follow-up of the project SoundXY, a musical tabletop interface for a stereo system developed by Anna Xambó in 2012. See a video demo here: http://vimeo.com/55298584
 
-http://www.nime.org/proceedings/2008/nime2008_249.pdf
+- This application runs with SuperCollider: http://supercollider.sourceforge.net
 
-- This code is a follow-up of the project SoundXY, a musical tabletop interface for a stereo system developed by Anna Xambó in 2012. See a video demo here: 
+- This application uses the SETO Quark for the recognition of objects, developed by Till Bovermann: http://tuio.lfsaw.de/seto.shtml
 
-http://vimeo.com/55298584
+- The computer vision engine used in this work is reacTIVision, developed by Martin Kaltenbrunner: http://reactivision.sourceforge.net
 
-- This application runs with SuperCollider:
-
-http://supercollider.sourceforge.net
-
-- This application uses the SETO Quark for the recognition of objects, developed by Till Bovermann: 
-
-http://tuio.lfsaw.de/seto.shtml
-
-- The computer vision engine used in this work is reacTIVision, developed by Martin Kaltenbrunner: 
-
-http://reactivision.sourceforge.net
-
-- The sound samples used in this application follow the categories proposed by Russolo in 1913 (The Art of Noise). Read the manifesto here: 
-
-http://www.artype.de/Sammlung/pdf/russolo_noise.pdf
+- The sound samples used in this application follow the categories proposed by Russolo in 1913 (The Art of Noise). Read the manifesto here: http://www.artype.de/Sammlung/pdf/russolo_noise.pdf
 
 - The selection of sounds has been carried out by Gerard Roma from Freesound.org.
 
-- All sounds (see full list below) can be found in the open sound database Freesound.org, developed by the MTG-UPF: 
-
-http://freesound.org
+- All sounds (see full list below) can be found in the open sound database Freesound.org, developed by the MTG-UPF: http://freesound.org
 
 
 Acknowledgements
@@ -111,8 +95,8 @@ Sound credits
 - Thunder_close_Boem.wav by hantorio: http://freesound.org/people/hantorio/sounds/121946/
 - Gun Shot sound_02 by GregsMedia: http://freesound.org/people/GregsMedia/sounds/150139/
 
-percussion
-==========
+**percussion**
+
 - prac - tom.wav by TicTacShutUp: http://freesound.org/people/TicTacShutUp/sounds/449/
 - rocks.aif by splashzooka: http://freesound.org/people/splashzooka/sounds/21789/
 - BatonRes.wav by garogourou: http://freesound.org/people/garogourou/sounds/144522/
@@ -120,8 +104,8 @@ percussion
 - falling metal 1 - 20.3.11.wav by toiletrolltube: http://freesound.org/people/toiletrolltube/sounds/179854/
 - Cymbal Impact.wav by LloydEvans09: http://freesound.org/people/LloydEvans09/sounds/185818/
 
-screech
-==========
+**screech**
+
 - spoon_bowl2.wav by Corsica_S: http://freesound.org/people/Corsica_S/sounds/64383/
 - 00736 rustling plastic 1.wav by Robinhood76: http://freesound.org/people/Robinhood76/sounds/67267/
 - Neon Light.wav by Julien Matthey: http://freesound.org/people/Julien%20Matthey/sounds/118340/
@@ -129,16 +113,16 @@ screech
 - train screech.wav by ognito perceptu: http://freesound.org/people/cognito%20perceptu/sounds/181868/
 - fire.crackling.mp3 by dobroide: http://freesound.org/people/dobroide/sounds/4211/
 
-voices
-==========
+**voices**
+
 - tibetan chant 1.wav by djgriffin: http://freesound.org/people/djgriffin/sounds/15362/
 - insane laughter man reverb.wav by Leady: http://freesound.org/people/Leady/sounds/26729/
 - 01948 kid laughter.wav by Robinhood76: http://freesound.org/people/Robinhood76/sounds/103592/
 - catHowling2.wav by Zabuhailo: http://freesound.org/people/Zabuhailo/sounds/146965/
 - Groan_male_normalised.wav by Adam_N: http://freesound.org/people/Adam_N/sounds/171758/
 
-whispers
-==========
+**whispers**
+
 - wind_gurgle.ogg by Halleck: http://freesound.org/people/Halleck/sounds/2878/
 - CatMathilda01_-18dBFS.wav by DanGasior: http://freesound.org/people/DanGasior/sounds/90742/
 - Stomach_Gurgling - SeveralSamples by Vosvoy: http://freesound.org/people/Vosvoy/sounds/149120/
@@ -146,11 +130,11 @@ whispers
 - audience becomes still 01.wav by klankbeeld: http://freesound.org/people/klankbeeld/sounds/171550/
 - Whisper of Wind by Hephaestus: http://freesound.org/people/Hephaestus/sounds/181183/
 
-whistles
-==========
-00773 leaking gas 1.wav by Robinhood76: http://freesound.org/people/Robinhood76/sounds/66248/
-whistle of boat.aif by nextmaking: http://freesound.org/people/nextmaking/sounds/86045/
-short whistle it tunnel.aiff by SoundCollectah: http://freesound.org/people/SoundCollectah/sounds/109354/
-pipe hiss 003.WAV by DJ Chronos: http://freesound.org/people/DJ%20Chronos/sounds/130289/
-Air_escaping.wav by Adam_N: http://freesound.org/people/Adam_N/sounds/164623/
-Snort 2 long.flac by bigfriendlyjiant: http://freesound.org/people/bigfriendlyjiant/sounds/183915/
+**whistles**
+
+- 00773 leaking gas 1.wav by Robinhood76: http://freesound.org/people/Robinhood76/sounds/66248/
+- whistle of boat.aif by nextmaking: http://freesound.org/people/nextmaking/sounds/86045/
+- short whistle it tunnel.aiff by SoundCollectah: http://freesound.org/people/SoundCollectah/sounds/109354/
+- pipe hiss 003.WAV by DJ Chronos: http://freesound.org/people/DJ%20Chronos/sounds/130289/
+- Air_escaping.wav by Adam_N: http://freesound.org/people/Adam_N/sounds/164623/
+- Snort 2 long.flac by bigfriendlyjiant: http://freesound.org/people/bigfriendlyjiant/sounds/183915/
