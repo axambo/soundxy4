@@ -7,7 +7,7 @@ Introduction
 
 **SoundXY4** is a musical tabletop interface implemented for real-time performance of sound samples and effects using ambisonics spatialisation. SoundXY4 is suitable for performing in collaboration using a multichannel system – ideally with four speakers. It provides auditory information of the location of tangible objects on a tabletop surface. It can be useful to support both individual and group awareness of users actions on the tabletop surface with no need of using headphones. It can also permit the musicians to explore and discover together a set of sound categories (in this case Russolo's) in the context of music performance. Sounds are grouped in different categories inspired by Russolo's taxonomy of sounds presented in The Art of Noise (1913). The palette of sounds of this version has been selected by Gerard Roma from Freesound.org (see below a full list of sound credits). 
 
-See a demo video here:
+See a video demo here:
 
 http://vimeo.com/70693984
 
@@ -45,7 +45,7 @@ Usage
 
 You can start the application by typing `XY4.new` on the SuperCollider IDE. The spatialisation mode is activated by default. It is also possible to launch the program with no spatialisation by typing `XY4.new(0)`. 
  
-SoundXY4 tracks the identity (ID), position and orientation of tangible objects tagged with fiducial markers and maps them to sound players or effects. In this version, there is a subset of 36 different sound samples that are mapped to 36 fiducials (IDs from 0 to 35). Sounds are grouped in 6 categories inspired by Russolo's taxonomy. We used physical cubes with a unique marker on each side of the cube. For this version, we used another subset of 6 filters repeated in 4 different cubes (IDs from 108 to 131). Filters used are a band pass filter, a resonant low pass filter, a high pass filter, a comb delay, a pitch shifter, and an amplitude modulator.
+SoundXY4 tracks the identity (ID), position and orientation of tangible objects tagged with fiducial markers and maps them to sound players or effects. In this version, there is a subset of 36 different sound samples that are mapped to 36 fiducials (IDs from 0 to 35). Sounds are played in loop. Sounds are grouped in 6 categories inspired by Russolo's taxonomy. We used physical cubes with a unique marker on each side of the cube. For this version, we used another subset of 6 filters repeated in 4 different cubes (IDs from 108 to 131). Filters used are a band pass filter, a resonant low pass filter, a high pass filter, a comb delay, a pitch shifter, and an amplitude modulator.
  
  When a sound player cube is on the tabletop surface, it is highlighted by a coloured square. There is a different colour for each category of sound players, and the nearest filter will take the same colour to indicate the sound that it is affecting.
  
@@ -62,7 +62,7 @@ References
 ----------
 - This code is inspired by WaveTable, a tangible and multi-touch tabletop waveform editor developed by Gerard Roma who led the software design and Anna Xambó who led the hardware design in 2008. Read our paper here: http://www.nime.org/proceedings/2008/nime2008_249.pdf
 
-- This code is a follow-up of the project SoundXY, a musical tabletop interface for a stereo system developed by Anna Xambó in 2012. See a video demo here: http://vimeo.com/55298584
+- This code is a follow-up of the project SoundXY2 (http://github.com/axambo/soundxy2), a musical tabletop interface for a stereo system developed by Anna Xambó in 2012. See a video demo here: http://vimeo.com/55298584
 
 - This application runs with SuperCollider: http://supercollider.sourceforge.net
 
@@ -104,7 +104,7 @@ Sound credits
 - falling metal 1 - 20.3.11.wav by toiletrolltube: http://freesound.org/people/toiletrolltube/sounds/179854/
 - Cymbal Impact.wav by LloydEvans09: http://freesound.org/people/LloydEvans09/sounds/185818/
 
-**screech**
+**screeches**
 
 - spoon_bowl2.wav by Corsica_S: http://freesound.org/people/Corsica_S/sounds/64383/
 - 00736 rustling plastic 1.wav by Robinhood76: http://freesound.org/people/Robinhood76/sounds/67267/
@@ -117,6 +117,7 @@ Sound credits
 
 - tibetan chant 1.wav by djgriffin: http://freesound.org/people/djgriffin/sounds/15362/
 - insane laughter man reverb.wav by Leady: http://freesound.org/people/Leady/sounds/26729/
+- psycho scream 1.wav by FreqMan: http://freesound.org/people/FreqMan/sounds/42847/
 - 01948 kid laughter.wav by Robinhood76: http://freesound.org/people/Robinhood76/sounds/103592/
 - catHowling2.wav by Zabuhailo: http://freesound.org/people/Zabuhailo/sounds/146965/
 - Groan_male_normalised.wav by Adam_N: http://freesound.org/people/Adam_N/sounds/171758/
